@@ -66,7 +66,7 @@ summated[i,8] <- sum(num.sem[i,29:32])}
 colnames(summated) <- c("ak","cr","du","fi","in","kv","lo","sp")	
 
 it.2 <- itemanal(as.matrix(summated))
-pca.4 <- paf(object=as.matrix(summated), eigcrit=1) #nemá smysl provádìt FA, pouze pro statistiky
+pca.4 <- paf(object=as.matrix(summated), eigcrit=1) #nemÃ¡ smysl provÃ¡dÃ¬t FA, pouze pro statistiky
 
 # xtable(pca.4$Correlation)
 # xtable(pca.4$Anti.Image.Cor)
