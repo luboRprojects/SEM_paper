@@ -2,7 +2,6 @@
 library(psych)
 cor.mat <- cor(num.sem)
 
-
 ### Factor Analysis 2014-6-30
 ## Model of 8 factors
 fac.an1 <- fa(cor.mat, 8) 
@@ -30,23 +29,15 @@ fac.an2
 fa.sort(fac.an2)
 fa.diagram(fac.anal2, cut=0.3)
 
-
-
 om2 <- omega(cor.mat, 5)
 omega.diagram(om2, cex=0.5, cut=0.3)
 
 ## Testy
 
 # Plotting
-
-
-
 # Principal Component Analysis... (But in fact FA as nfactors is subsided by us)
 pca.1 <- principal(cor.mat, nfactors=8)
 pca.2 <- principal(cor.mat, nfactors=5)
-
-
-
 
 # Anti-Image Correlation - Partial Correlation matrix
 # Sampling adequacy characteristics
