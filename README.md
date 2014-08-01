@@ -14,7 +14,7 @@ This folder contains these scripts:
   - there are not many combinations of grouping factors (i.e, gender) and manifest variables (questions from questionnaire),
   - I've prepared labels and indices for questions so it should not be tedious to toy around with combinations
  
-3. factor_analysis.R
+3. sem_factor_analysis.R
   - codes for Exploratory Factor Analysis,
   - several validity/reliability characteristics are calculated here
 
